@@ -24,7 +24,5 @@ sourceGenerators in Compile += Def.task {
 // "sbt stage" to compile and create executable in target/universal/
 enablePlugins(JavaServerAppPackaging)
 
-enablePlugins(AkkaGrpcPlugin)
-
 // make "press return to stop" work in sbt run
 connectInput in run := true
